@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+body{
+	background-image: url("back.jpg");
+}
+.poll{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin:20px;
+	padding:20px;
+	border:1px solid #ccc;
+	border-style:outset;
+ 	border-radius:10px;
+ 	box-shadow: 0 0 5px 2px #333333;
+ 	text-align:center;
+ 	background-color: white;
+}
+.poll-question{
+	font-weight:bold;
+	margin-bottom:20px;
+	font-family: 'Patrick Hand', cursive;
+	font-size:20px
+}
+.poll-option{
+	margin-left:40px;
+	margin-bottom:10px;
+	text-align: left;
+	font-family: 'Patrick Hand', cursive;
+	font-size:20px;
+}
+.btn{
+	text-align: center;
+	margin-left:20px;
+}
+.submit{
+	border-radius: 40px;	 
+	padding: 5px 15px;
+	border: 2px solid #ccc;
+	color: #000000;  
+	font-variant: small-caps;
+    border-radius: 10px;
+	border-style: inset;
+    font-family: 'Philosopher', sans-serif;
+    font-size:20px;
+}
+.submit:hover{
+	background-color: #d3d3d3
+}
+
+table{
+	margin-left: 30px;
+	border:2px solid #ccc;
+	border-style:inset;
+	font-family: 'Philosopher', sans-serif;
+}
+h3{
+	margin-bottom:20px;
+	
+}
+h1,h3{
+	font-family: 'Spicy Rice', cursive;
+	color:#32527B;
+}
+p,li{
+	font-family: 'Patrick Hand', cursive;
+	font-size:20px;
+}
